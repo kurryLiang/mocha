@@ -1,0 +1,362 @@
+ body{
+	overflow-x: hidden;
+}
+
+.background{
+	position: absolute;
+	left: 50%;
+	margin-left: -750px;
+	top: 0;
+	width: 1500px;
+	height: 1110px;
+	z-index: 1;
+}
+
+.header{
+	position: absolute;
+	width: 2560px;
+	height: 80px;
+	left: 50%;
+	top: -10px;
+	margin-left: -1280px;
+	background-color: #ff8b38;
+	z-index: 999;
+}
+
+figure{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	top: 320px;
+	margin-left: 50px;
+	overflow: hidden;
+	height: 350px;
+	float: left;
+	z-index: 999;
+}
+
+figure figcaption p{
+	transition: all 0.5s;
+}
+
+.picture{
+	width: 700px;
+	height: 350px;
+}
+
+.test{
+	background: #2F0000;
+}
+
+.test img{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.test:hover img{
+	transform: translate(-50px,0px);
+	opacity: 0.8;
+}
+
+figcaption{
+	position: absolute;
+	z-index: 999;
+	top: 70px;
+	left: 15px;
+	color: #fff;
+	margin: 3px;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 1.2em;
+}
+
+.test figcaption p{
+	transform: translate(-600px,0px);
+}
+
+.test figcaption p:nth-of-type(1){
+	transition-delay: 0.05s;
+}
+
+.test figcaption p:nth-of-type(2){
+	transition-delay: 0.1s;
+}
+
+.test figcaption p:nth-of-type(3){
+	transition-delay: 0.15s;
+}
+
+.test figcaption p:nth-of-type(4){
+	transition-delay: 0.20s;
+}
+
+.test:hover figcaption p{
+	transform: translate(0px,0px);
+}
+
+.boxshadow{
+	position: absolute;
+	left: 50%;
+	margin-left: 70px;
+	top: 494px;
+	width: 550px;
+	height: 200px;
+	background-color: #fff;
+	z-index: 998;
+	border-radius: 100px/10px;
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.8);
+}
+
+.button{
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 800px;
+	display: block;
+	width: 180px;
+	height: 40px;
+	text-decoration: none;
+	color: #ff8b38;
+	font-size: 1.5em;
+	font-family: "Arial";
+	font-weight: bold;
+	border: 4px solid rgba(255,139,56,0.7);
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background: url(../img/右箭头.png) no-repeat 145px center;
+	background-size: 10%;
+	transition: 0.4s ease-out;
+	z-index: 999;
+}
+
+.button:hover{
+	border: 4px solid rgba(255,139,56,1);
+	background-position: 155px center;
+}
+
+.img-title{
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 380px;
+	font-family: "微软雅黑";
+	font-size: 1.7em;
+	word-spacing: 2px;
+	color: #000;
+	z-index: 999;
+	font-weight: bold;
+	border-bottom: 4px solid #ff8b38;
+	padding-bottom: 35px;
+}
+
+.tip{
+	position: absolute;
+
+}
+
+
+.content{
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	top: 510px;
+	font-family:"Arial" ;
+	font-size: 1.1em;
+	word-spacing: 1px;
+	color: #bbbbbb;
+	z-index: 999;
+}
+
+.footer{
+	position: absolute;
+	width: 2560px;
+	height: 50px;
+	left: 50%;
+	top: 1065px;
+	margin-left: -1280px;
+	background-color: #ff8b38;
+	z-index: 999;
+}
+
+/*圆角系列*/
+.circle{ 
+	background-color: #87CEEB;
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -670px;
+	border-radius: 50%;
+	transition: 0.2s ease-out;
+	width: 60px;
+	height: 60px;
+	z-index: 999;
+}
+
+.square{
+	position: absolute;
+	top: 154px;
+	left: 50%;
+	margin-left: -480px;
+	width:0;
+    height:0;
+    transition: 0.2s ease-out;
+    border-top:26px solid #87CEEB;
+    border-left:26px solid #87CEEB;
+    border-right:26px solid #87CEEB;
+    border-bottom:26px solid #87CEEB;
+	z-index: 999;
+}
+
+.ellipse{
+	position: absolute;
+	left: 50%;
+	margin-left: -290px;
+	top: 155px;
+	transition: 0.2s ease-out;
+	background-color: #87CEEB;
+	border-radius: 50%;
+	width:100px;
+	height: 50px;
+	z-index: 999;
+}
+
+.rectangle{
+	position: absolute;
+	top: 155px;
+	left: 50%;
+	margin-left: -60px;
+	width:0;
+    height:0;
+    transition: 0.2s ease-out;
+    border-top:25px solid #87CEEB;
+    border-left:50px solid #87CEEB;
+    border-right:50px solid #87CEEB;
+    border-bottom:25px solid #87CEEB;
+	z-index: 999;
+}
+
+.equilateral-triangle{
+	position: absolute;
+	top: 146px;
+	left: 50%;
+	margin-left: 170px;
+	z-index: 999;
+	width: 0;  
+    height: 0;  
+    transition: 0.2s ease-out;
+    float: left;  
+    border-top: 35px solid transparent;  
+    border-left: 70px solid #87CEEB;  
+    border-bottom: 35px solid transparent;  
+}
+
+.sector{
+	position: absolute;
+	top: 152px;
+	left: 50%;
+	margin-left: 350px;
+	z-index: 999;
+	width:0;
+    height:0;
+    transition: 0.2s ease-out;
+    float: left;
+    border-radius: 50%;
+    border-top: 60px solid #87CEEB;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+}
+
+.right-triangle{
+	position: absolute;
+	top: 152px;
+	left: 50%;
+	transition: 0.2s ease-out;
+	margin-left: 580px;
+	z-index: 999;
+	width:0;
+    height:0;
+    float: left;
+    border-top: 70px solid #87CEEB;  
+    border-right: 70px solid transparent;  
+}
+
+.circle:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+.square:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+.ellipse:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+.rectangle:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+.equilateral-triangle:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+.sector:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+.right-triangle:hover{
+	transform: rotate(360deg) scale(1.2);
+}
+
+.chat-before{
+	position: absolute;
+	top: 792px;
+	left: 50%;
+	margin-left: 340px;
+	z-index: 1006;
+	width: 0;  
+	height: 0;  
+	float: left;  
+	border-bottom: 30px solid #87CEEB;  
+    border-left: 15px solid transparent;  
+   	border-right: 15px solid transparent;  
+}
+
+.chat-bubble{
+	position: absolute;
+	top: 820px;
+	left: 50%;
+	margin-left: 260px;
+	z-index: 999;
+	width: 200px;  
+	height: 100px; 
+	float: left;  
+	background: #87CEEB;  
+    border-radius: 12px;
+    transition: 1s ease-out;
+    box-shadow: 14px 14px 40px #4a4a48;
+}
+
+.bubble{
+	cursor: pointer;
+	position: absolute;
+	left: 50%;
+	margin-left: 309px;
+	font-size: 1.8em;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #fff;
+	top: 803px;
+	z-index: 999;
+	letter-spacing: 2px;
+	text-align: center;
+	transition: 0.5s ease-out;
+	opacity: 0.9;
+}
+
+.bubble:hover{
+	transform: scale(1.2);
+}
+
+

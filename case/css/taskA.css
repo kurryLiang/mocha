@@ -1,0 +1,169 @@
+body{
+		background: url(../img/任务A背景.gif) no-repeat top center;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.link{
+		cursor: pointer;
+		position: absolute;
+		left: 50%;
+		margin-left: -550px;
+		margin-top: 450px;
+		width: 115px;
+		height: 40px;
+		border: 4px solid rgba(255,139,56,0.7);
+		padding-left: 20px;
+		padding-top: 10px;
+		border-radius: 5px;
+		transition: 0.4s ease-out;
+	}
+
+	.link a{
+		font-size: 1.5em;
+		font-family: "Arial";
+		font-weight: bold;
+		color: #ff8b38;
+		text-decoration: none;
+	}	
+	
+	.link:hover{
+		border: 4px solid rgba(255,139,56,1);
+	}
+
+	.register{ 
+		width: 560px;
+		height: auto;
+		display: none;
+		position: absolute;
+		z-index: 9000;
+		top: 0px;
+		left: 0px;
+		background: #fff;
+	}
+
+	.register a{
+		text-decoration: none;
+	}
+
+	.register-Title{
+		padding:0px 20px;
+		height: 50px;
+		line-height: 50px;
+		color: #fff;
+		font-family: "Arial";
+		font-weight: bold;
+		font-size: 1.7em;
+		background-color: #ff8b38;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+
+	.register-closebtn{
+		width: 30px;
+		height: 30px;
+		background: url(../img/关闭按钮.png) no-repeat;
+		opacity: 0.5;
+		cursor: pointer;
+		position: absolute;
+		right: 5px;
+		top: 5px;
+	}
+
+	.register-content{
+		padding: 15px 20px;
+		background-color: #fff;
+		border-radius: 3px;
+	}
+
+	.userName span{
+		display: block;
+		float: left;
+		margin-top: 15px;
+		margin-left: 60px;
+		font-family:Arial;
+		font-size:1.1em;
+		letter-spacing: 0.7px;
+	}
+
+	.userPassword span{
+		display: block;
+		float: left;
+		margin-top: 15px;
+		margin-left: 72px;
+		font-family:Arial;
+		font-size:1.1em;
+		letter-spacing: 0.7px;
+	}
+
+	.confirmPassword span{
+		display: block;
+		float: left;
+		margin-top: 15px;
+		margin-left: 0px;
+		font-family:Arial;
+		font-size:1.1em;
+		letter-spacing: 0.7px;
+	}
+
+	.register-content input{
+		margin: 10px;
+		padding: 0px;
+		font-family:Arial;
+		font-size:13px;
+		border-radius:3px;
+		border: 2px solid #000;
+		width: 200px;
+		height: 28px;
+		letter-spacing: 0.7px;
+		outline: none;
+		text-indent: 5px;
+	}
+
+	.confirm{
+		display: block;
+		cursor: pointer;
+		margin-left: 220px;
+		width: 80px;
+		height: 30px;
+		text-align: center;
+		text-decoration: none;
+		color: #ff8b38;
+		font-size: 1.5em;
+		font-family: "Arial";
+		font-weight: bold;
+		border-radius: 5px;
+		border: 3px solid rgba(255,139,56,0.7);
+		transition: 0.5s ease-out;
+	}
+
+	.confirm:hover{
+		border: 3px solid #ff7f27;
+	}
+
+	.msg{
+		font-family: "微软雅黑";
+		margin-top: 0px;
+		margin-left: 170px;
+		font-size: 15px;
+	}
+
+	#count{
+		position: absolute;
+		font-family: "Arial";
+		top: 80px;
+		margin-left: 380px;
+		font-size: 15px;
+	}
+
+	.register-mask{ 
+		width: 100%;
+		height:100%;
+		background: #000;
+		position: absolute;
+		top: 0px;
+		height: 0px;
+		z-index: 8000;
+		opacity:0.4;
+		filter: Alpha(opacity=40);
+	}

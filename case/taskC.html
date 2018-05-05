@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务C</title>
+    <link rel="stylesheet" href="css/taskC.css">
+    <style>
+        .datepicker{
+            border: 1px solid #cccccc;
+            border-radius: 2px;
+            padding: 5px;
+            height: 24px;
+            line-height: 24px;
+            width: 100px;
+            left: 50%;
+            margin-left: 400px;
+            margin-top: 290px;
+        }
+
+        .datepicker:focus{
+            outline: none;
+        }
+
+        input{
+        	position: absolute;
+        	color: #ccc;
+        	font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+	<div class="aaa">
+    	<input type="text" class="datepicker">
+	</div>
+    <script src="js/taskC-getData.js"></script>
+    <script src="js/taskC-bloatedData.js"></script>
+    <script>
+        datePicker.init('.datepicker');
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>任务A</title>
+	<link rel="stylesheet" href="css/taskA.css" type="text/css" />
+</head>
+<body>
+
+	<div class="link">
+		<a href="javascript:showregister();">Register</a>
+	</div>
+
+	<div class="register-mask" id="mask" onselectstart="return false"></div>
+
+	<div class="register" id="registerMove" onselectstart='return false;'>
+
+		<div class="register-Title" id="registerDrag"  onselectstart="return false;" >
+			Sign up
+			<a class="register-closebtn" href="javascript:hideregister();"></a>
+		</div>
+
+		<div class="register-content">
+			
+			<div class="userName">
+					<label>
+						<span>
+							User Name:
+						</span>
+						<input type="text" name="myName">
+					</label>
+
+					<p class="msg"></p>
+			</div>
+
+			<div>
+				<label><span></span><b id="count"></b></label>
+			</div>
+
+			<div class="userPassword">
+					<label>
+						<span>
+							Password:
+						</span>
+						<input type="password" name="pass">
+					</label>
+
+					<p class="msg"></p>
+			</div>
+
+			<div class="confirmPassword">
+					<label>
+						<span>
+							Confirm password:
+						</span>
+						<input type="password" name="pass" disabled="">
+					</label>
+
+					<p class="msg"></p>
+			</div>
+
+			<div>
+				<a class="confirm" href="#" >OK</a>
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/taskA.js"></script>
+</body>
+</html>
